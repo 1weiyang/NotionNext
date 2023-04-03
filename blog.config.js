@@ -12,6 +12,8 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
+  NEXT_PUBLIC_WALINE_SERVER_URL: 'https://waline-is-the-best-system.zeabur.app',//评论插件
+  
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '三变青年', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '一个普通的干饭人🍚', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.3stone.top', // 网站地址
@@ -238,6 +240,6 @@ const BLOG = {
   VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
 }
 
-NEXT_PUBLIC_WALINE_SERVER_URL: 'https://waline-is-the-best-system.zeabur.app',//评论插件
+
 
 module.exports = BLOG
