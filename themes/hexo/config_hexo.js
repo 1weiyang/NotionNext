@@ -4,28 +4,6 @@ const CONFIG_HEXO = {
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
-  
-  
-  NEXT PUBLIC WALINE SERVER URL: 'https://waline-is-the-best-system.zeabur.app',//评论插件
-  
-  
- 
-waline:
-  enable: true #是否开启
-  serverURL: waline-is-the-best-system.zeabur.app
-  placeholder: 请文明评论呀 
-  avatar: mm 
-  meta: [nick, mail, link] 
-  pageSize: 10 // 评论数量多少时显示分页
-  lang: zh-cn // 语言, 可选值: en, zh-cn
-  // Warning: 不要同时启用 `waline.visitor` 以及 `leancloud_visitors`.
-  visitor: false // 文章阅读统计
-  comment_count: true // 如果为 false , 评论数量只会在当前评论页面显示, 主页则不显示
-  requiredFields: [] // 设置用户评论时必填的信息，[nick,mail]: [nick] | [nick, mail]
-  libUrl: // Set custom library cdn url
-
-
-
 
   // 菜单配置
   MENU_INDEX: true, // 显示首页
