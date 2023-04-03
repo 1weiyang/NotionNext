@@ -238,6 +238,6 @@ const BLOG = {
   VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
 }
 
-NEXT_PUBLIC_WALINE_SERVER_URL:https://waline-is-the-best-system.zeabur.app,//评论插件
+NEXT_PUBLIC_WALINE_SERVER_URL:'https://waline-is-the-best-system.zeabur.app',//评论插件
 
 module.exports = BLOG
