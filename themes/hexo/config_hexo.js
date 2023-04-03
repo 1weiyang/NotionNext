@@ -4,6 +4,9 @@ const CONFIG_HEXO = {
 
   HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
   HOME_NAV_BACKGROUND_IMG_FIXED: true, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
+  
+  
+  NEXT PUBLIC WALINE SERVER URL: 'https://waline-is-the-best-system.zeabur.app',//评论插件
 
   // 菜单配置
   MENU_INDEX: true, // 显示首页
